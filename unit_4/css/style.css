@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Roboto|Roboto+Slab');
+
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#red {
+	color: rgb(255, 51, 0);
+}
+
+#category {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+
+.contact {
+	margin:auto;
+	font-family: "Roboto Slab", "Times New Roman", Times, serif;
+	background-color: rgb(232, 232, 232);
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: center;
+	width: 200px;
+}
