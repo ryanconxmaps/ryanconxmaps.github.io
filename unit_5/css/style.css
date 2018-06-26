@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Roboto|Roboto+Slab');
+
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+h1 {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
+/*nav {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+*/
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+#red {
+	color: rgb(255, 51, 0);
+}
+
+#category {
+	padding: 10px;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	width: 25%;
+}
+/*
+footer {
+	font-family: "Roboto Slab", "Times New Roman", Times, serif;
+	background-color: rgb(232, 232, 232);
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: center;
+	width: 33.3%;
+	height: auto;
+	padding-top: 20px;
+}
+*/
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
