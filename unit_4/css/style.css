@@ -7,22 +7,34 @@
     font-size: 14px;
 }
 
+h1 {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+}
+
 #red {
 	color: rgb(255, 51, 0);
 }
 
-#category {
+.category {
+	padding: 10px;
 	font-family: Roboto, Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	text-align: center;
 }
 
 .contact {
-	margin:auto;
+	float: left;
 	font-family: "Roboto Slab", "Times New Roman", Times, serif;
 	background-color: rgb(232, 232, 232);
 	font-size: 15px;
 	line-height: 1.5em;
 	text-align: center;
-	width: 200px;
+	width: 33.3%;
+	height: 200px;
+	padding-top: 20px;
+}
+/*
+img.contact {
+	padding-bottom: 20px;
 }
