@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Roboto|Roboto+Slab');
+
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+h1 {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 50px;
+	width: 50%
+}
+
+nav {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+a:link {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	color: inherit;
+	text-decoration: none;
+}
+
+footer {
+	background-color: rgb(232, 232, 232);
+	height: auto;
+	padding-top: 20px;
+	overflow: auto;
+}
+
+#menu {
+	display: none;
+}
+
+#red {
+	color: rgb(255, 51, 0);
+}
+
+#app {
+	text-align: center;
+}
+
+#started {
+	text-align: right;
+}
+
+#sbox {
+    width: 33%;
+	font-size: 20px;
+	float: right;
+    padding: 1em;
+    border: 3px solid rgb(232, 232, 232);
+    border-radius: 10px;
+    margin-top: 1em;
+    margin-right: 1em;
+    outline: none;
+}
+
+#email {
+	padding-bottom: 35px;
+}
+
+#chat {
+	padding-bottom: 25px;
+}
+
+.category {
+	font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	width: 25%;
+	float: left;
+}
+
+.navbar {
+	width: 33.3%;
+	float: left;
+}
+
+.contact {
+	font-family: "Roboto Slab", "Times New Roman", Times, serif;
+	background-color: rgb(232, 232, 232);
+	font-size: 15px;
+	line-height: 1.5em;
+	text-align: center;
+	width: 33.3%;
+	height: auto;
+	padding-top: 20px;
+	float: left;
+}
+
+.foottext {
+	padding: 10px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media screen and (max-width: 800px) {
+	.category {
+		width: 50%;
+	}
+
+	.contact {
+		float: none;
+		width: 100%;
+		padding-top: 0px;
+	}
+
+	.mcont1 {
+		margin: 1em;
+		border: 1px solid black;
+		padding: 1em;
+	}
+
+	.mcont {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#sbox {
+		float: none;
+		width: 90%;
+	}
+
+	#started {
+		text-align: center;
+	}
+
+	#menubutt {
+		display: none;
+	}
+
+	#menu {
+		width: 100%;
+		display: inline;
+	}
+
+	#app {
+		display: none;
+	}
+
+	#started {
+		display: none;
+	}
+
+	.welcome {
+		display: none;
+	}
+
+	.catimages {
+		display: none;
+	}
+
+	.catext {
+		border-radius: 5px;
+		color: white;
+		background-color: rgb(255, 51, 0);
+		padding: 1em;
+		margin: 1px;
+	}
+
+	.navbar {
+		font-size: 20px;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.category {
+		float: none;
+		width: 100%;
+	}
+
+	.contact {
+		float: none;
+		width: 100%;
+	}
+}
